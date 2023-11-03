@@ -1,1 +1,0 @@
-# trytond-account_dunning_automation
