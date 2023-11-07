@@ -5,9 +5,9 @@ from trytond.modules.company.tests import CompanyTestMixin
 from trytond.tests.test_tryton import ModuleTestCase
 
 
-class AccountDunningTestCase(CompanyTestMixin, ModuleTestCase):
-    'Test AccountDunning module'
-    module = 'account_dunning'
+class AccountDunningAutomationTestCase(CompanyTestMixin, ModuleTestCase):
+    'Test AccountDunningAutomation module'
+    module = 'account_dunning_automation'
 
 
 del ModuleTestCase
