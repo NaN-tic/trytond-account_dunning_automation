@@ -1,6 +1,41 @@
 #
+# Albert Cervera i Areny <albert@nan-tic.com>, 2023.
 msgid ""
-msgstr "Content-Type: text/plain; charset=utf-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: Albert Cervera i Areny <albert@nan-tic.com>\n"
+"PO-Revision-Date: 2023-11-24 18:42+0100\n"
+"Project-Id-Version: \n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca_ES\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "Enviar correo electrónico"
+
+msgctxt "field:account.dunning.level,wait_automatically:"
+msgid "Move to Waiting Automatically"
+msgstr "Pasar a \"En espera\" automáticamente"
+
+msgctxt "help:account.dunning.level,send_email:"
+msgid ""
+"If checked, an e-mail will be sent to the party when the dunning is "
+"computed. A trigger must be created."
+msgstr ""
+"Si se marca, se enviará un correo electrónico al tercero cuando se calcule "
+"la reclamación. Se debe crear un disparador."
+
+msgctxt "help:account.dunning.level,wait_automatically:"
+msgid ""
+"If checked, the dunning will be moved to waiting state when computed from "
+"cron."
+msgstr ""
+"Si se marca, la reclamación pasará al estado \"En espera\" cuando se calcule "
+"desde el planificador."
 
 msgctxt "selection:ir.cron,method:"
 msgid "Create dunning"

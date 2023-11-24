@@ -1,6 +1,42 @@
 #
+# Albert Cervera i Areny <albert@nan-tic.com>, 2023.
 msgid ""
-msgstr "Content-Type: text/plain; charset=utf-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: Albert Cervera i Areny <albert@nan-tic.com>\n"
+"PO-Revision-Date: 2023-11-24 18:43+0100\n"
+"Project-Id-Version: \n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca_ES\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "Envia un correu electrònic"
+
+msgctxt "field:account.dunning.level,wait_automatically:"
+msgid "Move to Waiting Automatically"
+msgstr "Passar a \"En espera\" automàticament"
+
+msgctxt "help:account.dunning.level,send_email:"
+msgid ""
+"If checked, an e-mail will be sent to the party when the dunning is "
+"computed. A trigger must be created."
+msgstr ""
+"Si està marcat, s'enviarà un correu electrònic al tercer quan es calcula la "
+"reclamació. S'ha de crear un disparador."
+
+msgctxt "help:account.dunning.level,wait_automatically:"
+msgid ""
+"If checked, the dunning will be moved to waiting state when computed from "
+"cron."
+msgstr ""
+"Si està marcat, la reclamació es mourà a l'estat \"En espera\" quan es"
+" calculi "
+"des del planificador."
 
 msgctxt "selection:ir.cron,method:"
 msgid "Create dunning"
