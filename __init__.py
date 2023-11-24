@@ -6,6 +6,7 @@ from . import dunning
 
 def register():
     Pool.register(
-        dunning.Dunning,
         dunning.Cron,
+        dunning.Dunning,
+        dunning.Level,
         module='account_dunning_automation', type_='model')
