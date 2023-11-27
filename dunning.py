@@ -22,12 +22,12 @@ class Dunning(metaclass=PoolMeta):
     @classmethod
     def create_dunning_cron(cls):
         cls.generate_dunnings()
-        to_wait = []
+        to_process = []
         for dunning in cls.search([('state', '=', 'draft')]):
             if dunning.level.wait_automatically:
-                to_wait.append(dunning)
+                to_process.append(dunning)
         if to_wait:
-            cls.wait(to_wait)
+            cls.process(to_wait)
 
 
 class Cron(metaclass=PoolMeta):
