@@ -26,8 +26,8 @@ class Dunning(metaclass=PoolMeta):
         for dunning in cls.search([('state', '=', 'draft')]):
             if dunning.level.wait_automatically:
                 to_process.append(dunning)
-        if to_wait:
-            cls.process(to_wait)
+        if to_process:
+            cls.process(to_process)
 
 
 class Cron(metaclass=PoolMeta):
