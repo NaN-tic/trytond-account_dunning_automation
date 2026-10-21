@@ -40,3 +40,5 @@ class Cron(metaclass=PoolMeta):
             ('account.dunning|create_dunning_cron',
                 "Create dunning"),
             )
+        cls.methods_company_needed.add(
+            'account.dunning|create_dunning_cron')
