@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "发送电子邮件"
+
+msgctxt "field:account.dunning.level,wait_automatically:"
+msgid "Move to Waiting Automatically"
+msgstr "自动转为等待状态"
+
+msgctxt "help:account.dunning.level,send_email:"
+msgid ""
+"If checked, an e-mail will be sent to the party when the dunning is "
+"computed. A trigger must be created."
+msgstr "勾选后，计算催款时将向往来单位发送电子邮件。必须创建触发器。"
+
+msgctxt "help:account.dunning.level,wait_automatically:"
+msgid ""
+"If checked, the dunning will be moved to waiting state when computed from "
+"cron."
+msgstr "勾选后，通过计划任务计算催款时，将其转为等待状态。"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Create dunning"
+msgstr "创建催款"
