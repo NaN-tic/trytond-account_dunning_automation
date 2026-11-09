@@ -1,0 +1,36 @@
+#
+msgid ""
+msgstr ""
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "E-mail küldése"
+
+msgctxt "field:account.dunning.level,wait_automatically:"
+msgid "Move to Waiting Automatically"
+msgstr "Automatikus várakozó állapotba helyezés"
+
+msgctxt "help:account.dunning.level,send_email:"
+msgid ""
+"If checked, an e-mail will be sent to the party when the dunning is "
+"computed. A trigger must be created."
+msgstr ""
+"Ha be van jelölve, a felszólítás kiszámításakor e-mailt küld a partnernek. "
+"Ehhez eseményindítót kell létrehozni."
+
+msgctxt "help:account.dunning.level,wait_automatically:"
+msgid ""
+"If checked, the dunning will be moved to waiting state when computed from "
+"cron."
+msgstr ""
+"Ha be van jelölve, az időzített feladat által számított felszólítás várakozó"
+" állapotba kerül."
+
+msgctxt "selection:ir.cron,method:"
+msgid "Create dunning"
+msgstr "Fizetési felszólítás létrehozása"
